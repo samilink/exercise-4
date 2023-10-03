@@ -1,0 +1,98 @@
+*{
+    margin:10px;
+    padding:10px;
+    background-color: lavender;
+    border-radius:36px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+    
+}
+html {
+    --s: 150px; /* control the size */
+    --c1: #f7d2a1;
+    --c2: #05057e;
+  
+    --_g: 
+       var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+       var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+       #0000 96%;
+    background:
+      radial-gradient(50% 50% at 100% 0,var(--_g)),
+      radial-gradient(50% 50% at 0 100%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+      var(--c1);
+    background-size: var(--s) var(--s);
+  }
+  
+h1 {
+    font-size:72px;
+    color:darkslateblue;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+h1{
+
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max: width 700px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 0.5px white;
+} 
+
+img {
+    width: 50%;
+    border-radius:36px;
+    
+}
+
+article {
+    border: 7px double white;
+    background-color:lavender;
+    margin: 12px auto 36px auto;
+    padding: 36px;
+    max: width 628px;
+    border-radius:36px;
+
+}
+
+h3{
+    color: darkslateblue;
+    font-weight: regular;
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    color:coral;
+}
+
+h2{
+    color:rgb(110, 84, 52);
+}
+
+.button{
+    background-color:white;
+    width:100px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+a:hover {
+    color: coral;
+}
+
+a:visited{
+    color:black;
+}
